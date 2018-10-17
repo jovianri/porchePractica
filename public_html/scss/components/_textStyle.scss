@@ -1,0 +1,13 @@
+h2 {
+    font-size: $h2-font-size;
+    font-weight: $h2-font-weight;
+}
+
+a {
+    color: $a-color;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $a-hover-color;
+}

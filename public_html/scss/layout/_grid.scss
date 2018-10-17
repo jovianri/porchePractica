@@ -1,0 +1,42 @@
+
+.boxLarge1 {
+    grid-area: large1;
+}
+
+.boxLarge2 {
+    grid-area: large2;
+}
+
+.boxLarge3 {
+    grid-area: large3;
+}
+
+.boxLittle1 {
+    grid-area: little1;
+}
+
+.boxLittle2 {
+    grid-area: little2;
+}
+
+.boxLittle3 {
+    grid-area: little3;
+}
+
+.boxLittle4 {
+    grid-area: little4;
+}
+
+.boxLittle5 {
+    grid-area: little5;
+}
+
+.boxLittle6 {
+    grid-area: little6;
+}
+
+.row__group {
+    padding-right: $row-group-padding-right;
+    display: grid;
+    grid-template-areas: 'large1 large1 little3 little4 large3 large3' 'large1 large1 large2 large2 large3 large3' 'little1 little2 large2 large2 little5 little6';
+}

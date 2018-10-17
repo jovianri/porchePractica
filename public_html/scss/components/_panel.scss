@@ -1,0 +1,119 @@
+//Paneles
+//Tamaños
+.panel--default{
+    width: $panel-meddium;
+    font-size: $panel-font-size;
+}
+.panel__head--default{
+    font-size: $panel-font-size;
+    border: 1px solid transparent;
+    padding: $panel-padding;
+    border-top-left-radius: $border-radius-panel;
+    border-top-right-radius: $border-radius-panel;
+}
+.panel__body--default{
+    background-color: $background-color-body;
+    font-size: $panel-font-size;
+    padding: $panel-padding;
+    border-radius: $border-radius-panel;
+    border: 1px solid transparent;
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.panel--large{
+    width: $panel-large;
+    font-size: $panel-font-size-large;
+}
+.panel__head--large{
+    border: 1px solid transparent;
+    padding: $panel-padding;
+    border-top-left-radius: $border-radius-panel;
+    border-top-right-radius: $border-radius-panel;
+}
+.panel__body--large{
+    background-color: $background-color-body;
+    padding: $panel-padding;
+    border-radius: $border-radius-panel;
+    border: 1px solid transparent;
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.panel--small{
+    width: $panel-small;
+}
+.panel__head--small{
+    font-size: $panel-font-size-small;
+    border: 1px solid transparent;
+    padding: $panel-padding;
+    border-top-left-radius: $border-radius-panel;
+    border-top-right-radius: $border-radius-panel;
+}
+.panel__body--small{
+    background-color: $background-color-body;
+    font-size: $panel-font-size-small;
+    padding: $panel-padding;
+    border-radius: $border-radius-panel;
+    border: 1px solid transparent;
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+//Colores
+.panel--primary{
+    border-color: lighten($color-primary, 20%); 
+}
+.panel__head--primary{
+    color: $color-primary;
+    background-color: lighten($color-primary, 30%);
+    border-color: lighten($color-primary, 20%);
+}
+.panel__body--primary{
+    border-color: lighten($color-primary, 20%);
+}
+.panel--success{
+    border-color: lighten($color-success, 20%); 
+}
+.panel__head--success{
+    color: $color-success;
+    background-color: lighten($color-success, 30%);
+    border-color: lighten($color-success, 20%);
+}
+.panel__body--success{
+    border-color: lighten($color-success, 20%);
+}
+.panel--info{
+    border-color: lighten($color-info, 20%); 
+}
+.panel__head--info{
+    color: $color-info;
+    background-color: lighten($color-info, 30%);
+    border-color: lighten($color-info, 20%);
+}
+.panel__body--info{
+    border-color: lighten($color-info, 20%);
+}
+.panel--warning{
+    border-color: lighten($color-warning, 20%); 
+}
+.panel__head--warning{
+    color: $color-warning;
+    background-color: lighten($color-warning, 30%);
+    border-color: lighten($color-warning, 20%);
+}
+.panel__body--warning{
+    border-color: lighten($color-warning, 20%);
+}
+.panel--danger{
+    border-color: lighten($color-danger, 20%); 
+}
+.panel__head--danger{
+    color: $color-danger;
+    background-color: lighten($color-danger, 30%);
+    border-color: lighten($color-danger, 20%);
+}
+.panel__body--danger{
+    border-color: lighten($color-danger, 20%);
+}

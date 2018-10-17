@@ -1,0 +1,17 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-oct-2018, 13:32:20
+    Author     : Alumno
+*/
+
+$colors: (color-primary, #337ab7) (color-success, #5cb85c) (color-info, #5bc0de) (color-warning, #f9ad4e) (color-danger, #d9534f);
+
+@each $name, $color in $colors {
+  .color-#{$color} {
+    $name: $color;
+  }
+}
