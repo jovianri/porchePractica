@@ -1,4 +1,19 @@
-.portada{
-    text-align: center;
-    font-size: 30px;
+.nav{
+    padding-left: 110px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+}
+.dropdown-content a {
+    display: block;
+    padding: 8px;
+    background-color: $page-background-color;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
 }
