@@ -4,6 +4,7 @@
 .dropdown {
     position: relative;
     display: inline-block;
+    padding-right: $nav-padding-right;
 }
 .dropdown-content{
     display: none;

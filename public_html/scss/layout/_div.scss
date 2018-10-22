@@ -1,6 +1,8 @@
 
 .row {
-    padding-left: $row-padding;
+    padding-left: $row-padding-left;
+    padding-top: $row-padding-top;
+    padding-bottom: $row-padding-bottom;
 }
 
 .row__title {
@@ -9,4 +11,9 @@
 
 .row__imagenes {
     display: inline-block;
+}
+
+row__slider{
+    padding-top: $row-padding-top;
+    padding-bottom: $row-padding-bottom;
 }

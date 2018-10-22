@@ -11,14 +11,17 @@
 .img__normal{
     height: 250px;
     width: 450px;
-    
+
 }
 
-.img__medium{
+.img__medium--default{
     height: 300px;
     width: 540px;
 }
-
+.img__medium--short{
+    height: 300px;
+    width: 270px;
+}
 .img__group--large{
     height: 345px;
     width: 455px;
