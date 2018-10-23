@@ -4,24 +4,24 @@
 .dropdown {
     position: relative;
     display: inline-block;
-    padding-right: $nav-padding-right;
-    padding-left: $nav-padding-right;
 }
-.dropdown-content{
+.dropdown__content{
     display: none;
     position: absolute;
 }
-.dropdown-content a {
+.dropdown__content a {
     display: block;
     padding: 8px;
     background-color: $page-background-color;
+    margin-left: $nav-a-margin-right;
+    margin-right: $nav-a-margin-right;
 }
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown__content{
     background-color: $a-hover-color !important;
     color: white !important;
     display: block;
 }
-.dropdown .dropdown-content a:hover{
+.dropdown .dropdown__content a:hover{
     background-color: $a-hover-color;
     color: white;
 }

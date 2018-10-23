@@ -403,25 +403,25 @@ footer {
 
 .dropdown {
   position: relative;
-  display: inline-block;
-  padding-right: 20px;
-  padding-left: 20px; }
+  display: inline-block; }
 
-.dropdown-content {
+.dropdown__content {
   display: none;
   position: absolute; }
 
-.dropdown-content a {
+.dropdown__content a {
   display: block;
   padding: 8px;
-  background-color: white; }
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px; }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown__content {
   background-color: #A43131 !important;
   color: white !important;
   display: block; }
 
-.dropdown .dropdown-content a:hover {
+.dropdown .dropdown__content a:hover {
   background-color: #A43131;
   color: white; }
 
