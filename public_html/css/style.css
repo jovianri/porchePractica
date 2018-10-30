@@ -342,10 +342,15 @@ a {
 a:hover {
   color: #A43131; }
 
-.texto__configuracion {
-  display: block;
-  margin: 0px;
+.texto__configuracion--centrado-vertical {
+  vertical-align: super; }
+
+.texto__configuracion--centrado-horizontal {
   text-align: center; }
+
+.texto__descubrir {
+  text-align: left;
+  vertical-align: super; }
 
 .row {
   padding-left: 110px;
@@ -393,17 +398,19 @@ footer {
 .boxLittle6 {
   grid-area: little6; }
 
-.row__group {
+.row__group--complex {
   padding-right: 110px;
   display: grid;
-  grid-template-areas: 'large1 large1 little3 little4 large3 large3' 'large1 large1 large2 large2 large3 large3' 'little1 little2 large2 large2 little5 little6'; }
+  grid-template-areas: "large1 large1 little3 little4 large3 large3" "large1 large1 large2 large2 large3 large3" "little1 little2 large2 large2 little5 little6"; }
 
 .nav {
   padding-left: 110px; }
 
 .dropdown {
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .dropdown__content {
   display: none;
@@ -412,9 +419,7 @@ footer {
 .dropdown__content a {
   display: block;
   padding: 8px;
-  background-color: white;
-  margin-left: 20px;
-  margin-right: 20px; }
+  background-color: white; }
 
 .dropdown:hover .dropdown__content {
   background-color: #A43131 !important;

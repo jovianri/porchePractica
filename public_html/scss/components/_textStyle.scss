@@ -12,8 +12,15 @@ a:hover {
     color: $a-hover-color;
 }
 
-.texto__configuracion{
-    display: block;
-    margin: 0px;
+.texto__configuracion--centrado-vertical{
+    vertical-align: super;
+}
+.texto__configuracion--centrado-horizontal{
     text-align: center;
+}
+
+.texto__descubrir{
+    //display: block;
+    text-align: left;
+    vertical-align: super;
 }

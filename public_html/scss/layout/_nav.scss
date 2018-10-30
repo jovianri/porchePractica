@@ -4,6 +4,8 @@
 .dropdown {
     position: relative;
     display: inline-block;
+    padding-left: $nav-a-padding-right;
+    padding-right: $nav-a-padding-right;
 }
 .dropdown__content{
     display: none;
@@ -13,8 +15,6 @@
     display: block;
     padding: 8px;
     background-color: $page-background-color;
-    margin-left: $nav-a-margin-right;
-    margin-right: $nav-a-margin-right;
 }
 .dropdown:hover .dropdown__content{
     background-color: $a-hover-color !important;
@@ -25,3 +25,5 @@
     background-color: $a-hover-color;
     color: white;
 }
+
+
